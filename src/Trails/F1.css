@@ -1,0 +1,98 @@
+.testimonial-container {
+    background-color: burlywood;
+    border-radius: 10px;
+    max-width: 1000px; /* Adjust the width as per your requirements */
+    height: 500px; /* Adjust the height as per your requirements */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url("https://images.pexels.com/photos/6712383/pexels-photo-6712383.jpeg?auto=compress&cs=tinysrgb&w=1200");
+    margin-bottom: 20px;
+  }
+  .testimonial-container h2 {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .testimonial-carousel {
+    margin-top: 50px;
+    height: 400px; /* Adjust the height as per your requirements */
+    overflow: hidden;
+    
+    position: relative;
+  }
+  
+  .testimonial-card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    padding-left: 5%;
+      padding-right: 5%;
+    transition: all 0.3s ease-in-out;
+  }
+  .testimonial-card p {
+    color: #000;
+    font-size: 16px;
+  }
+  .testimonial-card.active {
+    opacity: 1;
+  }
+  
+  .testimonial-image {
+    width: 150px; /* Adjust the image size as per your requirements */
+    height: 150px; /* Adjust the image size as per your requirements */
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 10px;
+  }
+  
+  .testimonial-text {
+    font-size: 30px;
+    padding: 10px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color:#d81717;
+  }
+  
+  .testimonial-author {
+    font-size: 14px;
+    font-weight: 800;
+    font-style: italic;
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .testimonial-image {
+      width: 60px; /* Adjust the image size for smaller screens */
+      height: 60px; /* Adjust the image size for smaller screens */
+    }
+  
+    .testimonial-text {
+      font-size: 14px; /* Adjust the font size for smaller screens */
+    }
+  
+    .testimonial-author {
+      font-size: 12px; /* Adjust the font size for smaller screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .testimonial-image {
+      width: 50px; /* Adjust the image size for even smaller screens */
+      height: 50px; /* Adjust the image size for even smaller screens */
+    }
+  
+    .testimonial-text {
+      font-size: 12px; /* Adjust the font size for even smaller screens */
+    }
+  
+    .testimonial-author {
+      font-size: 10px; /* Adjust the font size for even smaller screens */
+    }
+  }
+  

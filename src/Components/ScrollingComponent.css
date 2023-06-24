@@ -1,0 +1,62 @@
+/* ScrollingComponent.css */
+.container {
+  padding-top: 70px;
+  padding-bottom: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image-container {
+    flex: 0 0 600px;
+    margin-right: 20px;
+    border-radius: 10px;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .scrolling-container {
+    max-width: 550px;
+    border-radius: 10px;
+    height: 360px;
+    margin-left: -100px;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    background-image: url("https://images.pexels.com/photos/5428824/pexels-photo-5428824.jpeg?auto=compress&cs=tinysrgb&w=600");
+    
+  }
+  
+  .scrolling-text {
+    height: 300px;
+    overflow-y: hidden;
+    animation: scroll 10s linear infinite;
+  
+  }
+  .scrolling-container h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(66, 26, 26);
+  }
+  .scrolling-text p{
+    color:rgb(56, 25, 25);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+   }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+  
+  .scrolling-text p {
+    margin: 0;
+    padding: 10px;
+  }

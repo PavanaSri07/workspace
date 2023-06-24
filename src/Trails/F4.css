@@ -1,0 +1,95 @@
+.workflow-container {
+    text-align: center;
+    padding: 50px;
+  
+    
+  }
+  .workflow-container h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: #333;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .workflow-steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .workflow-step {
+    width: 250px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgb(34, 188, 119);
+    background-image: url("https://images.pexels.com/photos/7130473/pexels-photo-7130473.jpeg?auto=compress&cs=tinysrgb&w=600");
+    opacity: 0.9;
+    box-shadow: 0 2px 6px rgba(56, 53, 53, 0.15);
+    border-radius: 8px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;  }
+    .workflow-step:hover {
+      transform: translateY(-20px);
+    }
+  
+  .workflow-step img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 15px rgba(74, 68, 68, 0.15);
+  }
+  
+  .workflow-step h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #333;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .workflow-step p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  .direction-symbol {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .direction-symbol::before,
+  .direction-symbol::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: #333;
+  }
+  
+  .direction-symbol::before {
+    left: -30px;
+    transform: rotate(45deg);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+  }
+  
+  .direction-symbol::after {
+    right: -30px;
+    transform: rotate(45deg);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+  }
+  
+  /* Responsive Styles */
+  
+  @media screen and (max-width: 768px) {
+    .workflow-step {
+      width: 100%;
+    }
+  }
+  

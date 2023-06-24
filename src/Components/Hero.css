@@ -1,0 +1,52 @@
+.hero {
+  widows: 100%;
+  height: 100vh;
+  position: relative;
+}
+.hero-contact {
+  widows: 100%;
+  height: 70vh;
+  position: relative;
+}
+.hero-about {
+  widows: 100%;
+  height: 100vh;
+  position: relative;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero-text {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.hero-text h1 {
+  font-size: 3rem;
+  font-weight: 1000;
+  color: rgb(43, 52, 86);
+  -wekit-background-clip: text;
+  -wekit-text-fill-color: transparent;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero-text p {
+  font-size: 1.6rem;
+  font-weight:bolder;
+  font-family:'Times New Roman', Times, serif;
+  font-style: italic;
+  color: rgb(179, 59, 48);
+  padding: 0.5rem 0 0.2rem 0;
+}
+@media screen and(max-width:555px) {
+  .hero-text h1 {
+    padding: 10px 20px;
+  }
+  .hero-text p {
+    font-size: 1.1rem;
+    padding: 0 0 2rem 0;
+  }
+}

@@ -1,0 +1,118 @@
+// <div className="home-container">
+    //   <Slider {...settings}>
+    //     <div>
+    //       <div className="slick-slide">
+    //         <img
+    //           src="https://media.istockphoto.com/id/1188452509/photo/successful-business-team-smiling-teamwork-corporate-office-colleague.webp?b=1&s=170667a&w=0&k=20&c=__8eZGXIiYEjehMEoPrw1G00AB86cOWZc4sMj-2rWPA="
+    //           alt="Slide 1"
+    //         />
+    //         <div className="overlay">
+    //           <h1>Welcome to My Website</h1>
+    //           <p>
+    //             Thank you for visiting! This is a beautiful home page built with
+    //             React.
+    //           </p>
+    //         </div>
+    //       </div>
+    //     </div>
+    //     <div>
+    //       <div className="slick-slide">
+    //         <img
+    //           src="https://media.istockphoto.com/id/1182850660/photo/discussing-business-with-colleagues.webp?b=1&s=170667a&w=0&k=20&c=7zxtfU2GcJ1KIjvcMk4AecFHy7SxUCqygKoQyF52Svw="
+    //           alt="Slide 2"
+    //         />
+    //         <div className="overlay">
+    //           <h1>Welcome to My Website</h1>
+    //           <p>
+    //             Thank you for visiting! This is a beautiful home page built with
+    //             React.
+    //           </p>
+    //         </div>
+    //       </div>
+    //     </div>
+    //     <div>
+    //       <div className="slick-slide">
+    //         <img
+    //           src="https://images.unsplash.com/photo-1531545514256-b1400bc00f31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c29mdHdhcmUlMjBwZW9wbGUlMjB3b3JraW5nJTIwaW1hZ2VzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    //           alt="Slide 3"
+    //         />
+    //         <div className="overlay">
+    //           <h1>Welcome to My Website</h1>
+    //           <p>
+    //             Thank you for visiting! This is a beautiful home page built with
+    //             React.
+    //           </p>
+    //         </div>
+    //       </div>
+    //     </div>
+    //   </Slider>
+    // </div>
+    ---------------------------------------------------
+    /* .home-container {
+  position: relative;
+  height: 100vh;
+}
+
+.slick-slide {
+  position: relative;
+  height: 100vh;
+}
+
+.slick-slide img {
+  width: 100vw;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: black;
+  z-index: 2;
+}
+
+.overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.overlay p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .overlay h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .overlay p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .home-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .overlay h1 {
+    font-size: 2rem;
+  }
+
+  .overlay p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .home-button {
+    padding: 0.7rem 1.2rem;
+    font-size: 0.9rem;
+  }
+} */

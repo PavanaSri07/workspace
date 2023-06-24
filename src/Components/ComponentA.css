@@ -1,0 +1,56 @@
+/* ScrollingComponent.css */
+.container1 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .image-container1 {
+      flex: 0 0 600px;
+      margin-right: 20px;
+      border-radius: 10px;
+    }
+    
+    .image-container1 img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    
+    .scrolling-container1 {
+      max-width: 550px;
+      border-radius: 10px;
+      height: 360px;
+      margin-left: -100px;
+      padding: 20px;
+      overflow: hidden;
+      background-color: #0c0c0c;
+      background: url("https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=600");
+    
+    }
+    
+    .scrolling-text1 {
+      height: 300px;
+      overflow-y: hidden;
+      animation: scroll 10s linear infinite;
+    }
+    .scrolling-text1 p{
+     color:rgb(14, 14, 14);
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    @keyframes scroll {
+      0% {
+        transform: translateY(0);
+      }
+      100% {
+        transform: translateY(-100%);
+      }
+    }
+    
+    .scrolling-text1 p {
+      margin: 0;
+      padding: 10px;
+    }

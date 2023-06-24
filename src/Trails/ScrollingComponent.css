@@ -1,0 +1,61 @@
+/* ScrollingComponent.css */
+.container {
+    display: flex;
+    align-items: center;
+    height: 900px;
+    justify-content: center;
+  }
+  
+  .image-container {
+    flex: 0 0 900px;
+    margin-right: 20px;
+    border-radius: 10px;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .scrolling-container {
+    max-width: 650px;
+    border-radius: 10px;
+    height: 360px;
+    margin-left: -150px;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #c91212;
+  }
+  .scrolling-container h1 {
+   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  
+  .scrolling-text {
+    height: 300px;
+    overflow-y: hidden;
+    animation: scroll 10s linear infinite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .scrolling-text p{
+    height: 300px;
+    overflow-y: hidden;
+    animation: scroll 10s linear infinite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+  
+  .scrolling-text p {
+    margin: 0;
+    padding: 10px;
+  }
